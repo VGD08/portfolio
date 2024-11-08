@@ -39,8 +39,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 400px;
-    margin-top: 25px;
+    gap: 300px;
+    margin-top: 20px;
 }
 
 body{
@@ -89,4 +89,120 @@ img{
     display: flex;
     justify-content: baseline;
     margin: 20px;
+}
+.socials-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.750);
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    width: 300px;
+    margin: 0 auto;
+}
+.socials{
+    background-color: rgba(0, 0, 0, 0.499);
+    border: 2px solid white;
+    border-radius: 70px;
+    padding: 0px;
+    text-align: center;
+    width: 330px;
+    margin: 0 auto;
+}
+.polaroid {
+    background-color: #000000a8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    border-radius: 25px;
+}
+.container{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 35px;
+}
+.img-polaroid{
+    width: 400px;
+    height: 225px;
+    border-radius: 45px;
+    border: 2px solid white;
+   
+}
+.ervaring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: row;
+    gap: 200px;
+}
+
+table{
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+thead{
+    height: 50px;
+}
+th{
+    background-color: #87850366;
+}
+td{
+    border: 1px solid #ffed9f80;
+}
+video{
+    width: 400px;
+}
+.contact-form {
+    width: 100%;
+    text-align: center;
+    
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+.contact-form label {
+    font-size: 0,8em;
+    color: white;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 86%;
+    padding: px;
+    margin: 3px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+.contact-form button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: rgba(180, 180, 180, 0.499);
+    border: none;
+    border-radius: 75px;
+    transition: color 500ms;
+    align-items: center;
+    
+}
+.contact-form button:hover {
+    background-color: rgb(0, 110, 176);
 }
