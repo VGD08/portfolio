@@ -87,7 +87,6 @@ img{
 
 .flex-contain{
     display: flex;
-    justify-content: baseline;
     margin: 20px;
 }
 .socials-content{
@@ -182,14 +181,14 @@ video{
     color: white;
 }
 .contact-form label {
-    font-size: 0,8em;
+    font-size: 0,8;
     color: white;
 }
 .contact-form input,
 .contact-form textarea {
     width: 86%;
-    padding: px;
-    margin: 3px 0;
+    padding;
+    margin: 3px 0px;
     border: 1px solid #ddd;
     border-radius: 5px;
 
