@@ -187,10 +187,9 @@ video{
 .contact-form input,
 .contact-form textarea {
     width: 86%;
-    padding;
-    margin: 3px 0px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin : 3 0px;
+    border : 1 solid #ddd;
+    border-radius:5;
 
 }
 .contact-form button {
