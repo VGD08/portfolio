@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="main.css">
+
+  
     <title>portfolio VGD</title>
   </head>
 <body>
-
+  <script>
+    window.onload = function(){
+      const cookiePopup = document.getElementById('cookie-popup');
+      const acceptCookiesButton = document.getElementById('accept-cookies');
+    }    
+  </script>
+  
   <header>
-    <img src="images/vdg.png-transparant.png" alt="vgd-animated">
+    <img src="images/vdg.png-transparant.png" alt="">
     <h1 id="kleur">HOME </h1>
     <script >
       function kleur(){
@@ -17,7 +25,6 @@
 
 
       }
-    
     </script>
   </header>
 
@@ -38,5 +45,21 @@
       <img id="img-me" src="images/new-vgd-img.jpg" alt="me">
     </div>
   </div>
+  <div id="cookiePopup" class="cookie-popup">
+    <p>Deze website gebruikt cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. <a href="more-info">meer informatie</a></p>
+    <button id="acceptcookies">Accepteren</button>
+    <button id="weiger-acceptcookies">weiger</button>
+  </div>
+ 
+  <script>
+    document.getElementById('acceptcookies').addEventListener('click', function() {
+        document.getElementById('cookiePopup').style.display = 'none';
+    });
+  document.getElementById('weiger-acceptcookies').addEventListener('click', function() {
+      document.getElementById('cookiePopup').style.display = 'none';
+   });
+   
+  </script>
+  
 </body>
 </html>
