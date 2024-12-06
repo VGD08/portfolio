@@ -3,18 +3,20 @@ h1{
     color: white;
 }
 
+
 a{
     color: white;
     text-decoration: none;
 }
 
 nav{
-    text-align: center;
+    
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    color: white;
 }
 
 p{
@@ -231,4 +233,65 @@ color:black
     margin-top: 10px;
     color: black;
 }
+.light-mode{
+background-image: url(images/whitte\ achtergrond.jpg);
+color: black;
 
+}
+
+
+.light-mode a{
+    color: black;
+}
+
+.light-mode p{
+    color: black;
+}
+.light-mode h1{
+    color: black;
+}
+.about-me  {
+    color: white;
+    
+}
+.light-mode h2{
+    color:black !important;
+}
+.desktop-nav{
+    ul{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 1em;
+        li{
+            list-style: none;
+            
+        }
+    }
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.hamburger-menu{
+    position: absolute;
+    right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        margin-left: -400px;
+        transition: all 500ms;
+    }
+
+    .show-mobile-nav{
+        margin-left: 0;
+        transition: all 500ms;
+    }
+}
