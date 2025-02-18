@@ -11,7 +11,7 @@
 </header>
 
 <nav>
-  <a class="effect" href="index.html">home</a>
+  <a class="effect" href="index.php">home</a>
   
 </nav>
 <div>

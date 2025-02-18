@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="main.css">
-
-  
-    <title>portfolio VGD</title>
-  </head>
-<body id="body">
-  <script>
-    window.onload = function(){
-      const cookiePopup = document.getElementById('cookie-popup');
-      const acceptCookiesButton = document.getElementById('accept-cookies');
-    }    
-  </script>
-  
-  <header>
-    <img src="images/vdg.png-transparant.png" alt="">
-    <h1>HOME </h1>
-
-  </header>
-  <button class="hamburger-menu" onclick="toggleMenu()">Hamburger</button>
-  <nav class="desktop-nav">
-    <ul>
-      <li><a href="#"></a></li>
-      <li><a class="effect" href="about-me.html">about me</a></li>
-      <li><a class="effect" href="my-projects.html">My projects</a></li>
-      <li><a class="effect" href="interview.html">interview</a></li>
-      <li><a class="effect" href="contact.html">Contact me</a></li>
-      <li><a class="effect" href="countdown.html">countdown</a></li>
-      <button onclick="light_mode()">toggle light-mode</button>
-    </ul>
-  </nav>
-
-  <nav class="mobile-nav" id="mobile-nav">
-    <ul>
-      <li><a href="#"></a></li>
-      <li><a class="effect" href="about-me.html">about me</a></li>
-      <li><a class="effect" href="my-projects.html">My projects</a></li>
-      <li><a class="effect" href="interview.html">interview</a></li>
-      <li><a class="effect" href="contact.html">Contact me</a></li>
-      <li><a class="effect" href="countdown.html">countdown</a></li>
-      <button onclick="light_mode()">toggle light-mode</button>
-    </ul>
-  </nav>
+<?php require_once "includes/header.php"; ?>
 
   <div class="about-foto">
     <div class="about-me">
@@ -60,7 +16,12 @@
     <button id="acceptcookies">Accepteren</button>
     <button id="weiger-acceptcookies">weiger</button>
   </div>
- 
+  <script>
+    window.onload = function(){
+      const cookiePopup = document.getElementById('cookie-popup');
+      const acceptCookiesButton = document.getElementById('accept-cookies');
+    }    
+  </script>
   <script>
     document.getElementById('acceptcookies').addEventListener('click', function() {
         document.getElementById('cookiePopup').style.display = 'none';

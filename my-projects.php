@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <link rel="stylesheet" href="main.css">
-    <title>projects</title>
-</head>
-<body>
-    <header>
-        <img src="images/vdg.png-transparant.png" alt="vgd-animated">
-        <h1 class="bolt-text"> project </h1>
-    </header>
-    <nav>
-        <a class="effect" href="index.html">home</a>
-        <a class="effect" href="about-me.html">about me</a>
-        <a class="effect" href="interview.html">interview</a>
-        <a class="effect" href="contact.html">contact me</a>
-    </nav>
+<?php require_once "includes/header.php"; ?>
+
     <div class="projects">
         <div class="polaroid">
             <a href="https://github.com/VGD08/portfolio" target="_blank">

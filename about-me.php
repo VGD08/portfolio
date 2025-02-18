@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <img src="images/vdg.png-transparant.png" alt="vgd-animated">
-        <h1 class="bolt-text"> About me.</h1>
-    </header>
-    <nav>
-        <a class="effect" href="index.html">home</a>
-        <a class="effect" href="my-projects.html">my projects</a>
-        <a class="effect" href="interview.html">interview</a>
-        <a class="effect" href="contact.html">Contact me</a>
-    </nav>
+<?php require_once "includes/header.php"; ?>
    
             
              
